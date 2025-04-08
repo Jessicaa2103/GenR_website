@@ -1,0 +1,30 @@
+---
+title: "Generation R website"
+format:
+  html:
+    toc: true
+    toc-title: "Index"
+    toc-depth: 2
+    smooth-scroll: true
+    toc-location: left
+editor: visual
+juypter: python3
+---
+
+# Introduction
+
+This is the first version of the Generation R documentation website!!
+
+A Python code block:
+```{python setup, include=FALSE}
+
+import pandas as pd
+import numpy as np
+
+```
+
+A R code block:
+```{r}
+library(dplyr)
+
+```
